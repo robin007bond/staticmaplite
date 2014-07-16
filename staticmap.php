@@ -40,8 +40,9 @@ Class staticMapLite {
 									'cycle' => 'http://a.tile.opencyclemap.org/cycle/{Z}/{X}/{Y}.png',
 									'piste' => 'http://tiles.openpistemap.org/nocontours/{Z}/{X}/{Y}.png',
 									'piste' => 'http://openpistemap.org/tiles/contours/{Z}/{X}/{Y}.png',
-									'hikebike' => 'http://toolserver.org/tiles/hikebike/{Z}/{X}/{Y}.png'
-
+									'hikebike' => 'http://toolserver.org/tiles/hikebike/{Z}/{X}/{Y}.png',
+									'google_street' => 'http://mt1.google.com/vt/lyrs=m&x={X}&y={Y}&z={Z}',
+									'google_hybrid' => 'http://mt1.google.com/vt/lyrs=y&x={X}&y={Y}&z={Z}'
 	);
 	
 	protected $tileDefaultSrc = 'mapnik';
